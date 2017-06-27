@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27.09.2016, 13:17:00
+    Author     : vova
+*/
+catalog{
+    background-color: #fff;
+    display: block;
+    color: #979797;
+    font-size: 16px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 100%;
+}
+mobilePhone{
+    display: block;
+    border: 1px solid #FF9900;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 5px;
+    width: 300px;
+    float: left;
+    min-height: 250px;
+}
+model, realised, weight,
+thickness, os, storage, price{
+    display: block;
+}
+model{
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: #1428A0;
+}
+realised {
+    padding-left: 15px;
+}
+
+weight {
+    padding-left: 20px;
+}
+thickness{
+    padding-left: 25px;
+} 
+os{
+    padding-left: 30px;
+}
+storage{
+    padding-left: 35px;
+} 
+price{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}

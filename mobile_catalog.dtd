@@ -1,0 +1,19 @@
+<!ELEMENT catalog (mobilePhone+)>
+<!ELEMENT mobilePhone (model, realised, weight?, thickness?, os, storage+,price)>
+<!ELEMENT model (#PCDATA)> 
+<!ELEMENT realised (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT thickness (#PCDATA)>
+<!ELEMENT os (#PCDATA)>
+<!ATTLIST os
+    version CDATA #IMPLIED
+  >
+<!ELEMENT storage (#PCDATA)>
+<!ATTLIST storage
+    external CDATA #IMPLIED
+  >
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+    currency CDATA #REQUIRED
+  >
+<!ENTITY mm "millimeters">

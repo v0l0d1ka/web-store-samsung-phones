@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--add stylesheet-->
+<!--<?xml-stylesheet type="text/css" href="styles/smobile_catalog.css"?>-->
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/xsl" href="mobilecatalogstylesheet.xsl"?>
+<!DOCTYPE catalog [
+    <!ELEMENT catalog (mobilePhone+)>
+<!ELEMENT mobilePhone (model, realised, weight?, thickness?, os?, storage+,price)>
+<!ELEMENT model (#PCDATA)> 
+<!ELEMENT realised (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT thickness (#PCDATA)>
+<!ELEMENT os (#PCDATA)>
+<!ATTLIST os
+    version CDATA #IMPLIED
+  >
+<!ELEMENT storage (#PCDATA)>
+<!ATTLIST storage
+    external CDATA #IMPLIED
+  >
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+    currency CDATA #REQUIRED
+  >
+<!ENTITY mm "millimeters">
+]>
+    <catalog>
+        <mobilePhone>
+            <model>Samsung i600</model>
+            <realised>2006, December</realised>
+            <weight>105g</weight>
+            <thickness>11.8&mm;</thickness>
+            <os version="5.0">Microsoft Windows Mobile Smart</os>
+            <storage>64MB RAM storage</storage>
+           
+            <price currency="USD">45</price>
+        </mobilePhone>
+        <!--____-->
+        <mobilePhone>
+            <model>Samsung E898</model>
+            <realised>2006, October</realised>
+            <weight>82g</weight>
+            <thickness>14.6&mm;</thickness>
+            <storage>80MB storage</storage>
+          
+            <price currency="USD">35</price>
+        </mobilePhone>
+        <!--____-->
+        <mobilePhone>
+            <model>Samsung S500</model>
+            <realised>2003</realised>
+            <weight>80g</weight>
+            <thickness>22&mm;</thickness>
+            <storage external="slot">No</storage>
+            <price currency="USD">62</price>
+        </mobilePhone>
+        <!--____-->
+        <mobilePhone>
+            <model>Samsung Galaxy J5</model>
+            <realised>2016, April</realised>
+            <weight>159g</weight>
+            <thickness>8.1&mm;</thickness>
+            <os version="6.0.1">Android OS</os>
+            <storage>16GB storage</storage>
+           
+            <price currency="EUR">145</price>
+        </mobilePhone>
+        <!--_____-->
+        <mobilePhone>
+            <model>Samsung Galaxy S6 edge+</model>
+            <realised>2015, August</realised>
+            <weight>153g</weight>
+            <thickness>6.9&mm;</thickness>
+            <os version="5.1.1">Android OS</os>
+            <storage>32/64GB storage</storage>
+           
+            <price currency="USD">245</price>
+        </mobilePhone>
+        <!--____-->
+           <mobilePhone>
+            <model>Samsung Z2</model>
+            <realised>2016, August</realised>
+            <weight>153g</weight>
+            <thickness>10.8&mm;</thickness>
+            <os version="2.4">Tizen OS</os>
+            <storage>8GB storage</storage>
+           
+            <price currency="USD">105</price>
+        </mobilePhone>
+        <!--_____-->
+        <mobilePhone>
+            <model>Galaxy Note7</model>
+            <realised>2016, September</realised>
+            <weight>169g</weight>
+            <thickness>7.9&mm;</thickness>
+            <os version="6.0.1">Android OS</os>
+            <storage>64GB storage</storage>
+            
+            <price currency="USD">405</price>
+        </mobilePhone>
+        <!--____-->
+        <mobilePhone>
+            <model>Samsung Galaxy J Max</model>
+            <realised>2016, July</realised>
+            <weight>289g</weight>
+            <thickness>8.7&mm;</thickness>
+            <os version="5.1">Android OS</os>
+            <storage>8GB storage</storage>
+           
+            <price currency="EUR">360</price>
+        </mobilePhone>
+        <!--_____-->
+        <mobilePhone>
+            <model>Samsung Galaxy J+ XRay</model>
+            <realised>2016, July</realised>
+            <weight>289g</weight>
+            <thickness>8.7&mm;</thickness>
+            <os version="5.1">Android OS</os>
+            <storage>8GB storage</storage>
+           
+            <price currency="EUR">360</price>
+        </mobilePhone>
+        <!--____-->
+        <mobilePhone>
+            <model>Samsung Galaxy C7</model>
+            <realised>2016, June</realised>
+            <weight>289g</weight>
+            <thickness>8.7&mm;</thickness>
+            <os version="5.1">Android OS</os>
+            <storage>32\64GB storage</storage>
+            
+            <price currency="EUR">360</price>
+        </mobilePhone>
+        
+        <mobilePhone>
+            <model>Samsung Galaxy J7</model>
+            <realised>2016, April</realised>
+            <weight>170g</weight>
+            <thickness>7.8&mm;</thickness>
+            <os version="6.0.1">Android OS</os>
+            <storage>16GB storage</storage>
+           
+            <price currency="USD">260</price>
+        </mobilePhone>
+        <!--______-->
+          <mobilePhone>
+            <model>Samsung Galaxy A3</model>
+            <realised>2015, December</realised>
+            <weight>170g</weight>
+            <thickness>7.8&mm;</thickness>
+            <os version="6.0.1">Android OS</os>
+            <storage>16GB storage</storage>
+           
+            <price currency="USD">260</price>
+        </mobilePhone>
+        <!--_____-->
+        <mobilePhone>
+            <model>Samsung Galaxy J10</model>
+            <realised>2016, May</realised>
+            <weight>160g</weight>
+            <thickness>7.9&mm;</thickness>
+            <os version="6.0.0">Android OS</os>
+            <storage>32GB storage</storage>
+           
+            <price currency="MDL">2600</price>
+        </mobilePhone>
+        <!--_____-->
+          <mobilePhone>
+            <model>Samsung Galaxy Note+ A10</model>
+            <realised>2015, December</realised>
+            <weight>175g</weight>
+            <thickness>8.8&mm;</thickness>
+            <os version="4.0.1">Android OS</os>
+            <storage>8GB storage</storage>
+            
+            <price currency="USD">260</price>
+        </mobilePhone>
+    
+    <!--_____-->
+     <mobilePhone>
+            <model>Samsung Galaxy XSS+</model>
+            <realised>2016, August</realised>
+            <weight>158g</weight>
+            <thickness>6.9&mm;</thickness>
+            <os version="5.1.1">Android OS</os>
+            <storage>32/64GB storage</storage>
+           
+            <price currency="USD">245</price>
+        </mobilePhone>
+        <!--____-->
+           <mobilePhone>
+            <model>Samsung ZX2</model>
+            <realised>2016, August</realised>
+            <weight>153g</weight>
+            <thickness>10.8&mm;</thickness>
+            <os version="2.4">Tizen OS</os>
+            <storage>8GB storage</storage>
+           
+            <price currency="USD">105</price>
+        </mobilePhone>
+        </catalog>
+
